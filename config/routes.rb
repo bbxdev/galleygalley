@@ -1,4 +1,18 @@
 Galley::Application.routes.draw do
+  get "books/new"
+
+  get "covers/new"
+
+  get "galleys/new"
+
+  get "orders/new"
+
+  get "sessions/new"
+
+  get "users/new"
+
+  get "site_reviews/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
